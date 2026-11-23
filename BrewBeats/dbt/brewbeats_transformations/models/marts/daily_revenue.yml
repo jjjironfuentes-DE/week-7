@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: daily_revenue
+    description: Daily coffee sales revenue and transaction summary
+
+    columns:
+      - name: sale_date
+        description: Date of the coffee sales
+        data_tests:
+          - not_null
+          - unique
+
+      - name: total_transactions
+        description: Number of transactions per day
+        data_tests:
+          - not_null
+
+      - name: total_revenue
+        description: Total revenue per day
+        data_tests:
+          - not_null

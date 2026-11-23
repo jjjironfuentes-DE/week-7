@@ -1,0 +1,31 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+*.env
+profiles.yml
+secrets/
+*.pem
+*.key
+
+# Airflow local files
+BrewBeats/airflow/airflow.cfg
+BrewBeats/airflow/airflow.db
+BrewBeats/airflow/logs/
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Local databases and system files
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store

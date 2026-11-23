@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: brewbeats
+    database: BREWBEATS_DB
+    schema: RAW
+    description: Raw data for the BrewBeats coffee shop project
+
+    tables:
+      - name: coffee_sales
+        description: Raw coffee sales transactions
