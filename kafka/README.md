@@ -25,6 +25,7 @@ The labs cover Kafka fundamentals, messaging, data streaming, producers, consume
 |---|---|---|
 | Lab 01 | Kafka Console Producer and Consumer | Completed |
 | Lab 02 | Custom Kafka Producer and Consumer (Python) | Completed |
+| Lab 03 | Kafka Partitions, Keys and Consumer Groups | Completed |
 
 ### Lab 01 – Kafka Console Producer and Consumer
 
@@ -60,6 +61,7 @@ kafka/
 ├── labs/
 │   ├── Lab_01_Console_Producer_Consumer.md
 │   ├── Lab_02_Custom_Kafka_Producer_Consumer.md
+│   ├── Lab_03_Partitions_Keys_Consumer_Groups.md
 │   └── lab_02/
 │       ├── producer.py
 │       ├── consumer.py
@@ -81,6 +83,20 @@ kafka/
 - Document and version-control practical exercises using Git and GitHub.
 
 ---
+
+### Lab 03 – Kafka Partitions, Keys and Consumer Groups
+
+Topics covered:
+
+- Creating topics with multiple partitions.
+- Understanding message keys and partition assignment.
+- Verifying message ordering within partitions.
+- Running multiple consumers in the same consumer group.
+- Monitoring consumer offsets and lag.
+- Understanding consumer failover and partition reassignment.
+- Reading messages independently with different consumer groups.
+
+[View Lab 03 Documentation](labs/Lab_03_Partitions_Keys_Consumer_Groups.md)
 
 **Project:** Data Engineering – Week 7
 **Technology:** Apache Kafka, Python, confluent-kafka
