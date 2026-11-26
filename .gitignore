@@ -1,9 +1,34 @@
+# Python environments
 .venv/
+.venv-*/
+venv/
 __pycache__/
 *.py[cod]
+
+# Secrets and credentials
 .env
 .env.*
 !.env.example
+*.env
+profiles.yml
+secrets/
+*.pem
+*.key
+
+# IDE and system files
+.vscode/
 .ipynb_checkpoints/
 .DS_Store
-.vscode/
+
+# Airflow local files
+BrewBeats/airflow/airflow.cfg
+BrewBeats/airflow/airflow.db
+BrewBeats/airflow/logs/
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Local databases
+*.db
